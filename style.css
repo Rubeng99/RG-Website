@@ -1,3 +1,32 @@
+/* ------------------------------------------  */
+/* Blue Background Header */
+.blue-header{
+	background-image: url(images/Blue.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+/* Red Background Header */
+.red-header{
+	background-image: url(images/red.jpg);
+
+	height: 100%;
+	width: 100%;
+}
+
+/* Testing This Out */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(images/Blue.jpg);
+    color: white; /* Set text color to white for better readability */
+    font-family: Arial, sans-serif;
+}
+/* ------------------------------------------  */
+
+
 h2{
 	color: white;
 }
@@ -18,21 +47,6 @@ ul2{
 li2{
 	margin: 10px 0px 0px 0px;
 }
-
-.header{
-	background-image: url(images/Blue.jpg);
-
-	height: 100%;
-	width: 100%;
-	
-}
-.headers{
-	background-image: url(images/red.jpg);
-
-	height: 100%;
-	width: 100%;
-}
-
 
 .mySlide{
 	height: 100;
