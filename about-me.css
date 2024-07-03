@@ -5,7 +5,7 @@ body, html {
     height: 100%;
     background-image: url(images/Blue.jpg);
     color: white; /* Set text color to white for better readability */
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, system-ui;
 }
 
 header {
@@ -13,16 +13,69 @@ header {
     text-align: center;
 }
 
+
+
 .container {
-    display: flex;
+    display: flex; /* sets the flexible length on flexible items */
     justify-content: center;
     gap: 10px;
     padding: 20px;
 }
 
-.container img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 2px solid white;
+.item {
+    width: 200px;  /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    padding: 5px; /* Add padding inside the container */
+    background-color: black; /* Add a background color for visibility */
+    border: 2px solid white; /* Add a border around the container */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
 }
+
+.item img {
+    width: 100%;  /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.item:hover {
+    width: 250px;  /* Increase size on hover for effect */
+    height: 250px; /* Increase size on hover for effect */
+}
+
+
+.item2 {
+    width: 350px;  /* Set the desired width */
+    height: 250px; /* Set the desired height */
+    padding: 5px; /* Add padding inside the container */
+    background-color: black; /* Add a background color for visibility */
+    border: 2px solid white; /* Add a border around the container */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+}
+
+
+
+/* Red Background Header */
+.red-header{
+    background-image: url(images/red.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+#txt-background, #feature1, #footer1 {
+    margin: 2%;                  /* Increase the margin for more spacing around elements */
+    padding: 20px;               /* Add padding inside the elements to make them larger */
+    background-color: black;     /* Background color remains black */
+    border: 2px solid white;     /* Add a white border around the elements */
+    border-radius: 10px;         /* Optional: add rounded corners */
+    box-sizing: border-box;      /* Ensure padding and border are included in the element's total width and height */
+}
+
+
+#title-background {
+    margin: 2%;                  /* Increase the margin for more spacing around elements */
+    padding: 1px;               /* Add padding inside the elements to make them larger */
+    background-color: #89CFF0;     /* Background color remains black */
+    border: 2px solid white;     /* Add a white border around the elements */
+    border-radius: 10px;         /* Optional: add rounded corners */
+    box-sizing: border-box;      /* Ensure padding and border are included in the element's total width and height */
+}
+
