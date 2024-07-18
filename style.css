@@ -1,14 +1,14 @@
 /* ------------------------------------------  */
 /* Blue Background Header */
 .blue-header{
-	background-image: url(images/Blue.jpg);
+	background-image: url(images/Colors/Blue.jpg);
 	height: 100%;
 	width: 100%;
 }
 
 /* Red Background Header */
 .red-header{
-	background-image: url(images/red.jpg);
+	background-image: url(images/Colors/red.jpg);
 
 	height: 100%;
 	width: 100%;
@@ -20,7 +20,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url(images/Blue.jpg);
+    background-image: url(images/Colors/Blue.jpg);
     color: white; /* Set text color to white for better readability */
     font-family: Arial, sans-serif;
 }
@@ -81,14 +81,14 @@ body{
 
 #nav, #feature, #footer{
 	margin: 1%;
-	background-image: url(images/lights.JPG);
+	background-image: url(images/Colors/lights.JPG);
 
 }
 
 
 #nav1, #feature1, #footer1{
 	margin: 1%;
-	background-image: url(images/red.jpg);
+	background-image: url(images/Colors/red.jpg);
 
 }
 
@@ -101,6 +101,7 @@ body{
 
 
 .column3 {margin-right: 0%;}
+
 li {
 	display: inline;
 	padding:  0.5em;
@@ -120,12 +121,12 @@ li {
 div2{
 height: 3000px;
 width:  4000px;
-background-image: url(images/lights.JPG);
+background-image: url(images/Colors/lights.JPG);
 }
 p1{
 	height: 7500px;
 	width:  7500px;
-	background-image: url(images/lights.JPG);
+	background-image: url(images/Colors/lights.JPG);
 }
 
 #div1{

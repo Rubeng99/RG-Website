@@ -9,17 +9,15 @@ body, html {
 }
 
 header {
-    padding: 20px;
+    padding:2px;
     text-align: center;
 }
 
 
 big-font{
-    font-size: 80px;
+    font-size: 60px;
     font: Helvetica;
 }
-
-
 
 
 .container {
@@ -39,15 +37,23 @@ big-font{
 }
 
 
+/* This is the the layer that is displayed behind the text description */
 #txt-background, #feature1, #footer1 {
     margin: 2%;                  /* Increase the margin for more spacing around elements */
-    padding: 20px;               /* Add padding inside the elements to make them larger */
-    background-color: black;     /* Background color remains black */
-    border: 2px solid white;     /* Add a white border around the elements */
+    padding: 10px;               /* Add padding inside the elements to make them larger */
+    background-color: #FAF9F6;     /* Background color remains black */
+    border: 2px black;     /* Add a white border around the elements */
     border-radius: 10px;         /* Optional: add rounded corners */
     box-sizing: border-box;      /* Ensure padding and border are included in the element's total width and height */
 }
 
+black-text {
+    color:black;
+    font-family: Monteserrat;
+    font: bold;
+    font-size: 18px;
+}
+/* ================================================================== */
 
 #title-background {
     margin: 2%;                  /* Increase the margin for more spacing around elements */
@@ -59,13 +65,14 @@ big-font{
 }
 
 #hobbies-background{
-    margin: 2%;
-    padding: 0px;
-    background-color: #89CFF0;
+    background-color: #000000;
     border: 2px solid white;
-    border-radius: 100px;
+    border-radius: 10px;
     box-sizing: border-box;
+    text-align: center;
+    width: 250px;
 }
+
 
 
 /* Image effects */
