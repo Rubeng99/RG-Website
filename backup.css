@@ -1,0 +1,140 @@
+/* ------------------------------------------  */
+/* Blue Background Header */
+.blue-header{
+	background-image: url(images/Colors/Blue.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+/* Red Background Header */
+.red-header{
+	background-image: url(images/Colors/red.jpg);
+
+	height: 100%;
+	width: 100%;
+}
+
+/* Testing This Out */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(images/Colors/Blue.jpg);
+    color: white; /* Set text color to white for better readability */
+    font-family: Arial, sans-serif;
+}
+/* ------------------------------------------  */
+
+
+h2{
+	color: white;
+}
+h3{
+	color: white;
+	font-size: 30px;
+}
+w{
+	color: white;
+}
+gold{
+	color: #FBBF24;
+}
+ul2{
+	list-style: inside circle;
+	width: 300px;
+}
+li2{
+	margin: 10px 0px 0px 0px;
+}
+
+.mySlide{
+	height: 100;
+	width: 100;
+}
+img.large{
+	width:300px;
+	height:300px;
+}
+img.small{
+	width:100px;
+	height:100px;
+}
+blockquote{
+	float: right;
+	width: 275px;
+	font-size: 130%;
+	font-style:  italic;
+	font-family: Georgia, Times, serif;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+}
+
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#content {overflow: auto: }
+
+#nav, #feature, #footer{
+	margin: 1%;
+	background-image: url(images/Colors/lights.JPG);
+
+}
+
+
+#nav1, #feature1, #footer1{
+	margin: 1%;
+	background-image: url(images/Colors/red.jpg);
+
+}
+
+.column1, .column2, .column3{
+	width:  31.3%;
+	float: left;
+	margin:  1%;
+	object-fit: cover;
+}
+
+
+.column3 {margin-right: 0%;}
+
+li {
+	display: inline;
+	padding:  0.5em;
+}
+	#nav, #footer {
+		background-color:  #efefef;
+		padding: 0.5em 0;}
+		#feature, .article{
+			height: 10em;
+			margin-bottom: lem;
+			background-color: #efefef;
+			object-fit: cover;
+
+
+}
+
+div2{
+height: 3000px;
+width:  4000px;
+background-image: url(images/Colors/lights.JPG);
+}
+p1{
+	height: 7500px;
+	width:  7500px;
+	background-image: url(images/Colors/lights.JPG);
+}
+
+#div1{
+	border: 1px solid red;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+p.thick{
+	font-weight: bold;
+}
