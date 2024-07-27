@@ -137,4 +137,8 @@ p.thick {
 	margin:  1%;
 	object-fit: cover;
 
+}
 
+pdf-link:hover {
+            background-color: #45a049;
+        }
