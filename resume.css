@@ -1,0 +1,140 @@
+/* ------------------------------------------  */
+/* Testing This Out */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+/* ------------------------------------------  */
+
+
+/* This part centers the text on top page */
+.centered-ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    text-align: center; /* Center-align the list */
+}
+
+.centered-ul li {
+            display: inline-block; /* Display list items inline */
+            margin: 0 15px; /* Add some margin between items */
+}
+/* ------------------------------------------  */
+
+/*-- Colors --*/
+w-b-t{
+	color: white;
+	font-weight: bold;
+	font-size: 10;
+}
+
+gold {
+    color: #FBBF24;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#lulu {
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------------------------------------  */
+
+#link-rec, #feature1, #footer1 {
+    margin: 1%;
+    background-image: url(images/Colors/red.jpg);
+}
+
+#blue-grey{
+    background-color: #42526E;
+}
+
+
+.column1 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    object-fit: cover;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust height as needed */
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+    object-fit: cover;
+}
+
+/* Might not be using */
+p.thick {
+    font-weight: bold;
+}
+
+.circle-image {
+    width: 150px; /* Adjust width and height to your preference */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the circle area */
+}
+#content {
+    overflow: auto;
+}
+
+
+ .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 20px; /* Adjust as needed */
+}
+.sidebar {
+            width: 25%;
+            background-color: #F5F5F5;
+            padding: 20px;
+            text-align: center;
+}
+.main-content {
+            width: 70%;
+            padding: 20px;
+            background-color: white;
+            border-left: 2px solid black; /* Add a border to separate the columns */
+}
+
+
+.column1, .column2, .column3{
+	width:  31.3%;
+	float: left;
+	margin:  1%;
+	object-fit: cover;
+
+
