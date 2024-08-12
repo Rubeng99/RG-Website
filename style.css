@@ -68,15 +68,22 @@ body {
 }
 .row {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Adjust height as needed */
+  height: auto; /* Let the content determine the height */
 }
 
 .column {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.column img {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 50px; /* Ensure the image does not exceed a certain height */
 }
 
 
@@ -139,4 +146,10 @@ p.thick {
 }
 .pdf-link:hover {
             background-color: #45a049;
-        }
+}
+
+
+space {
+    width: 275px;
+    padding: 10px;
+}
