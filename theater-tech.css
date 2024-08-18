@@ -8,6 +8,44 @@ body, html {
     font-family: Oswald, system-ui;
 }
 
+
+
+
+black-text {
+    color:black;
+    font-family: Monteserrat;
+    font: bold;
+    font-size: 18px;
+}
+
+w-b-t{
+    color: white;
+    font-weight: bold;
+    font-size: 10;
+}
+/* This part centers the text on top page */
+.centered-ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    text-align: center; /* Center-align the list */
+}
+
+.centered-ul li {
+            display: inline-block; /* Display list items inline */
+            margin: 0 15px; /* Add some margin between items */
+}
+li {
+    display: inline;
+    padding: 0.5em;
+}
+#black{
+    background-color: #000000;
+}
+
+
+
+
+
 .item2 {
     width: 850px;  /* Set the desired width */
     height: 150px; /* Set the desired height */
