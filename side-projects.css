@@ -1,97 +1,162 @@
-/* Reset body and html margins and padding to cover the whole page */
+/* ------------------------------------------  */
+/* Testing This Out */
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #268AD2;
-    color: white; /* Set text color to white for better readability */
-    font-family: Montserrat, system-ui;
+    width: 100%;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+/* ------------------------------------------  */
+
+
+/* This part centers the text on top page */
+.centered-ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    text-align: center; /* Center-align the list */
 }
 
-header {
-    padding:2px;
-    text-align: center;
+.centered-ul li {
+            display: inline-block; /* Display list items inline */
+            margin: 0 15px; /* Add some margin between items */
 }
+/* ------------------------------------------  */
 
-
-big-font{
-    font-size: 60px;
-    font: Helvetica;
+/*-- Colors --*/
+w-b-t{
+    color: white;
+    font-weight: bold;
+    font-size: 10;
 }
-
-
-.container {
-    display: flex; /* sets the flexible length on flexible items */
-    justify-content: center;
-    gap: 10px;
-    padding: 20px;
-}
-
-.item2 {
-    width: 350px;  /* Set the desired width */
-    height: 250px; /* Set the desired height */
-    padding: 5px; /* Add padding inside the container */
-    background-color: black; /* Add a background color for visibility */
-    border: 2px solid white; /* Add a border around the container */
-    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
-}
-
-
-/* This is the the layer that is displayed behind the text description */
-#txt-background, #feature1, #footer1 {
-    margin: 2%;                  /* Increase the margin for more spacing around elements */
-    padding: 10px;               /* Add padding inside the elements to make them larger */
-    background-color: #FAF9F6;     /* Background color remains black */
-    border: 2px black;     /* Add a white border around the elements */
-    border-radius: 10px;         /* Optional: add rounded corners */
-    box-sizing: border-box;      /* Ensure padding and border are included in the element's total width and height */
-}
-
 black-text {
     color:black;
     font-family: Monteserrat;
     font: bold;
     font-size: 18px;
-}
-/* ================================================================== */
-
-#title-background {
-    margin: 2%;                  /* Increase the margin for more spacing around elements */
-    padding: 0px;               /* Add padding inside the elements to make them larger */
-    background-color: #89CFF0;     /* Background color remains black */
-    border: 2px solid white;     /* Add a white border around the elements */
-    border-radius: 100px;         /* Optional: add rounded corners */
-    box-sizing: border-box;      /* Ensure padding and border are included in the element's total width and height */
-}
-
-#hobbies-background{
-    background-color: #000000;
-    border: 2px solid white;
-    border-radius: 10px;
-    box-sizing: border-box;
     text-align: center;
-    width: 250px;
+}
+
+gold {
+    color: #FBBF24;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#lulu {
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------------------------------------  */
+
+#link-rec, #feature1, #footer1 {
+    margin: 1%;
+    background-image: url(images/Colors/red.jpg);
+}
+
+#blue-grey{
+    background-color: #42526E;
 }
 
 
-
-/* Image effects */
-.item {
-    width: 200px;  /* Set the desired width */
-    height: 200px; /* Set the desired height */
-    padding: 5px; /* Add padding inside the container */
-    background-color: black; /* Add a background color for visibility */
-    border: 2px solid white; /* Add a border around the container */
-    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+.column1 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    object-fit: cover;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Let the content determine the height */
 }
 
-.item img {
-    width: 100%;  /* Make the image take up the full width of the container */
-    height: auto; /* Maintain the aspect ratio */
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Hover over image effect */
-.item:hover {
-    width: 250px;  /* Increase size on hover for effect */
-    height: 250px; /* Increase size on hover for effect */
+.column img {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 50px; /* Ensure the image does not exceed a certain height */
+}
+
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+    object-fit: cover;
+}
+
+/* Might not be using */
+p.thick {
+    font-weight: bold;
+}
+
+.circle-image {
+    width: 150px; /* Adjust width and height to your preference */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the circle area */
+}
+#content {
+    overflow: auto;
+}
+
+
+ .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 20px; /* Adjust as needed */
+}
+.sidebar {
+            width: 25%;
+            background-color: #F5F5F5;
+            padding: 20px;
+            text-align: center;
+}
+.main-content {
+            width: 70%;
+            padding: 20px;
+            background-color: white;
+            border-left: 2px solid black; /* Add a border to separate the columns */
+}
+
+
+.column1, .column2, .column3{
+    width:  31.3%;
+    float: left;
+    margin:  1%;
+    object-fit: cover;
+}
+.pdf-link:hover {
+            background-color: #45a049;
+}
+
+
+space {
+    width: 275px;
+    padding: 10px;
 }
